@@ -1,3 +1,4 @@
+/* eslint-disable no-useless-computed-key */
 import { ReactNode, useRef, useState } from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
 import cn from 'classnames'
@@ -202,3 +203,4 @@ export const Notcoin = ({
     </AnimatePresence>
   )
 }
+
